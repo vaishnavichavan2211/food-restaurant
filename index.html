@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!--unicons-->
+   
+    <script src="https://kit.fontawesome.com/e7ea333cb2.js" crossorigin="anonymous"></script>
+   
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-bWJmSyzVZZeTrwKyQQwOOhLp13LCdtyC5uGHMb5Wd6gp1jE54/Ok8rYbuRAF/eb1n0xJii54fOoVwHhTk2koIg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    
+    <title>Food Restaurant</title>
+</head>
+<body class="">
+    
+    
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Food Restaurant Logo">
+            </div>
+            <ul>
+                <li><b><a href="#home">HOME</a></b></li>
+                <li><b><a href="#menu">MENU</a></b></li>
+            
+                <li><b><a href="#About">ABOUT</a></b></li>
+                <li><b><a href="#review">REVIEWS</a></b></li>
+                <li><b><a href="#section-wrapper">CONTACT</a></b></li>
+                
+            
+                 <!-- Ensure correct class and adjust size/color as needed -->
+                 <div class="shopping">
+
+                 <li class="iconsA"><i class="fas fa-shopping-cart cart"></i>
+                    <span class="quantity">0</span>
+                </li>
+                 </div>
+                <button class="logname" id="form-open">LOGIN</button>
+               
+                
+                 </a>
+
+            </ul>
+        </nav>
+        
+       
+        <!--home-->
+        <section class="home" id="home">
+            
+            <div class="form_container">
+        <!--LOGIN form-->
+        <div class="form login_from">
+            <i class="uil uil-times form_close"></i>
+
+            <form action="#">
+                <h3>login</h3>
+                <div class="input_box">
+                    <input id="loginID" type="name" placeholder="Enter username" required/>
+                    </div>
+
+                <div class="input_box">
+                    <input id="loginMail" type="email" placeholder="Enter your email" required/>
+                    
+                </div>
+                <div class="input_box">
+                    <input id="Pass" type="password" placeholder="Enter the password" required/>
+                    
+                </div>
+                <div class="option_field">
+                    <span class="checkbox">
+                        <input type="checkbox" id="check">
+                        <label for="check">Remember me</label>
+                    </span>
+                    <a href="#" class="forgot_pw">Forgot password?</a>
+                </div>
+                <button class="button" id="loginBTN">Login Now</button>      
+
+               <b><div class="login_signup">Don't have an account?<a href="#" id="signup">Signup</a></div></b>
+            </form>
+        </div>
+        
+         <!--signup form-->
+         <div class="form signup_from">
+            <form action="#">
+                <h3>Signup</h3>
+                <div class="input_box">
+                    <input id="signupID" type="email" placeholder="Enter your email" required/>
+                    </div>
+
+                <div class="input_box">
+                    <input id="signPASS" type="password" placeholder="Create password" required/>
+                    
+                </div>
+                <div class="input_box">
+                    <input id="conPass" type="password" placeholder="Confirm password" required/>
+                    
+                </div>
+                
+                <button class="button" id="signupBTN">Signup Now</button>      
+
+               <b><div class="login_signup">Already have an account?<a href="#" id="login">Login</a></div></b>
+            </form>
+        </div>
+
+        </div>
+        <header class="header">
+    <div class="content"><br><br><br><br><br><br><br><br>
+        <h1><i>PREMIUM FOOD AT AFFORDABLE PRICE.</i></h1>
+        <br><br>
+        <p class="foodplace">
+        <h2 class="upto">Upto 20% OFF</h2>
+        </p><br>
+        <br>
+        <p><b>In our restaurant,you are sure to find something for yourself 
+          we serve dishes from all over the world.
+        </b>
+        </p>
+
+   </div>
+   <div>
+    
+   <a href="table.html"><button class="order">BOOK A TABLE</button>
+    </a>
+
+   </div>
+
+</header>
+</section>
+
+
+   
+   <!--menu section-->
+
+   <div class="container" id="menu"> 
+    
+    <div class="head">
+        <i><b class="bb">Our Foods</b></i>
+    </div>
+    <div class="list">
+          
+    </div>
+</div>
+<div class="card">
+    <h1>Cart</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+<!--about section-->
+
+<section class="About"  id="About">
+    <div class="head2">
+        <b><p class="aa">About Us</p></b>
+        <p class="WW"> Why choose us? </p>
+    
+    <div class="row">
+
+          <div class="image">
+              <img src="chef.png" alt="">
+          </div>
+                 <div class="content2">
+                    <h3>best food in the country</h3><br>
+                     <p> Welcome to Foodie Delight, where we serve delicious and mouth-watering dishes that will satisfy your cravings. 
+                     Our passion for food and dedication to quality make us the perfect choice for your dining experience.
+                  </p>
+                     <p>Whether you're here for a casual meal with friends or a special celebration, our cozy atmosphere and attentive 
+                         staff will ensure you have a memorable time. We take pride in offering a diverse menu that caters to various tastes and dietary preferences.</p><br>
+                      <p>Come join us on a culinary journey, and let Foodie Delight be your go-to destination for exceptional food and warm hospitality. <br>
+                         We look forward to serving you!</p><br><br><br>
+                         <a href="#" class="cart2"><b>learn more</b></a>
+                      </div>
+                    </div>
+            </div>  
+</section> 
+
+<div class="head" id="review">
+    <b><p>CUSTOMERS <span> REVIEWS </span></p></b>
+</div>
+<div class="review">
+
+    <div class="customer">
+        <img src="men (1).jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev">"Absolutely delicious! The flavors were on point and the presentation was impeccable. I ordered the signature dish and it exceeded my expectations. </p>
+             
+    </div>
+    <div class="customer">
+        <img src="men (2).jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev">"Great atmosphere and even better food! I went with a group of friends and we all left feeling <br>satisfied. The menu has a good variety of options, catering to different tastes.</p><br>
+        
+    </div>
+    <div class="customer">
+        <img src="men (3).jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev">"Disappointing experience. Despite the hype, the food fell short of expectations. The flavors were bland and the dishes lacked creativity.</p>
+        <br>
+    </div>
+    <div class="customer">
+        <img src="man5.jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev">"Incredible culinary experience! Each dish was a work of art, both visually and in taste. The chef's attention to detail was evident in every bite. </p>
+        <br>
+    </div>
+    <div class="customer">
+        <img src="man6.jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev">"Average at best. The food was mediocre and nothing stood out. The ambiance was also lacking, making it a forgettable dining experience. There are better options in the area for the same price."</p>
+       <br> 
+    </div>
+    <div class="customer">
+        <img src="man4.jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev"> These reviews offer a range of perspectives, from highly positive to negative, providing potential customers with a balanced view of the restaurant's offerings.</p>
+        <br>
+    </div>
+    <div class="customer">
+        <img src="man7.jpg" alt=""> <br>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <p class="rev">"Great atmosphere and even better food! I went with a group of friends and we all left feeling satisfied. The menu has a good variety of options, catering to different tastes.</p>
+        
+    </div>
+ 
+</div>
+<div class="btn">
+    <button onclick="pre()">Prev</button>
+    <button onclick="next()">Next</button>
+</div>
+
+<!--contact page start-->
+<section id="section-wrapper">
+    <h1 class="ccc"><center>Contact Us</center></h1>
+    <div class="box-wrapper">
+        <div class="info-wrap">
+            
+            <h2 class="info-title">Contact Information</h2>
+            <h3 class="info-sub-title">Fill up the form and our Team will get back to you within 24 hours</h3>
+            <ul class="info-details">
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Phone:</span> <a href="tel:+ 1235 2355 98">+ 1235 2355 98</a>
+                </li>
+                <li>
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Email:</span> <a href="vaishnavichavan624@gmail.com.com">vaishnavichavan624@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-globe"></i>
+                    <span>Website:</span> <a href="#">yoursite.com</a>
+                </li>
+            </ul>
+            
+            <ul class="social-icons">
+                <a href="https://www.facebook.com/" class="fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/accounts/login/" class="insta"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a>
+            </ul>
+        
+        </div>
+        <div class="form-wrap">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h2 class="form-title">Send us a message</h2>
+                <div class="form-fields">
+                    <input type="hidden" name="access_key" value="1454f82e-5789-459f-9c44-6f0fad64962b">
+                    <div class="form-group">
+                        <input type="text" name="first name" class="fname" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="last name" class="lname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="email" placeholder="Mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="number" class="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="" placeholder="Write your message"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Send Message" class="submit-button">
+            </form>
+        </div>
+    </div>
+</section>
+</div><br><br><br><br>
+
+
+<script src="script.js"></script>
+</body>
+</html>
